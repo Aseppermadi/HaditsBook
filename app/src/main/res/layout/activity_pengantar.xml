@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PengantarActivity"
+    android:background="@color/green">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="PENGANTAR"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="44dp"
+        android:text="     Kitab  Arbain Nawawi atau Al-Arba’in An-Nawawiyah (Bahasa Arab: الأربعون النووية) merupakan kitab hadits yang memuat 42 hadits pilihan yang disusun oleh Imam Nawawi. Arba’in berarti 40 namun sebenarnya terdapat 42 hadits yang termuat dalam kitab hadits populer ini.  Kitab ini bersama dengan kitab Riyadus Shalihin dianggap sebagai karya Imam Nawawi yang paling terkenal dan diterima umat muslim di seluruh dunia. Kitab ini menjadi favorit di kalangan pengajar studi keislaman dan para santri di Pondok Pesantren untuk memulai menghafal Hadits-hadits Nabi sebelum beralih ke kitab-kitab yang lebih besar."
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></TextView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:text="     Para ulama dahulu untuk menajamkan pemahamannya dan untuk memudahkan mengajarkannya, biasanya menyusun kitab kumpulan atau rangkuman terhadap suatu masalah agama. Sehingga sesungguhnya Imam Nawawi bukanlah yang pertama dan juga bukan satu-satunya yang membuat Kitab Arbain, semisal Kitab Arbain Al-Ajurri, Al-Baihaqi, Ash-Shabuni, Al-Hakim, Ad-Daruquthni, Ath-Thabari, As-Suyuthi, Ibnu Hajar Al-Asqalani dan yang lainnya. Meski begitu, Kitab Arbain yang disusun Imam Nawawilah yang terkenal luas dan populer dikaji hingga saat ini, sehingga untuk membedakan dengan kitab Arbain yang lain, disebutlah namanya Al-Arba’in An-Nawawiyah (Kitab Arbain karya Imam An-Nawawi)."
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"></TextView>
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:text="      Dasar kitab “Arbain An-Nawawiyah ini adalah kitab “Al-Ahadits Al-Kulliyah” yang didiktekan Imam Al-Hafizh Abu Amr bin Ash-Shalah, yakni kumpulan 26 hadits yang padat dan ringkas. Kemudian Imam Nawawi menggenapkannya menjadi 42 hadits dan menamakannya dengan Al-Arba’in, judul asli kitabnya: Al-Arba’un Fi Mabani Al-Islam wa Qowa’idi Al-Ahkam."
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
